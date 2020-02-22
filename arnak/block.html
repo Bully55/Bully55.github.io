@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/inter.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="img/icons-conductor/white-logo.svg" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li>
+                            <a href="#" class="active-link">Explorer</a>
+                        </li>
+                        <li>
+                            <a href="#">API</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <input 
+                        type="text" 
+                        class="search__input" 
+                        placeholder="Search by Block / Txn / Address"
+                    >
+                    <button class="search__button">
+                        <img src="img/icons-conductor/search.svg" alt="search">
+                    </button>
+                </div>
+                <div id="select-lang">
+                    <div class="select-value">
+                        <span>Ru</span>
+                        <img src="img/icons/arrow-lang.svg" alt="arrow-select">
+                    </div>
+                    <div class="select-body">
+                        <label class="option">
+                            <input type="radio" name="select-option" value="Ru">
+                            <span class="text">Ru</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="select-option" value="En">
+                            <span class="text">En</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <main>
+            <section class="block-top">
+                <div class="container">
+                    <h2 class="title">Block №32422</h2>
+                    <div class="content">
+                        <div class="u-item">
+                            <div class="left">ID (Hash)</div>
+                            <div class="right">
+                                <span class="main-color">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</span>
+                            </div>
+                        </div>
+                        <div class="u-item">
+                            <div class="left">Data / Time</div>
+                            <div class="right">Dec 20, 2019 at 11:34</div>
+                        </div>
+                        <div class="u-item">
+                            <div class="left">Confirmations</div>
+                            <div class="right">12</div>
+                        </div>
+                        <div class="u-item">
+                            <div class="left">Transaction</div>
+                            <div class="right">22 (56322.1225 ANK)</div>
+                        </div>
+                        <div class="u-item">
+                            <div class="left">Miner</div>
+                            <div class="right">Unknown</div>
+                        </div>
+                        <div class="u-item">
+                            <div class="left">Block Reward</div>
+                            <div class="right">32</div>
+                        </div>
+                        <div class="u-item">
+                            <div class="left">Fee reward</div>
+                            <div class="right">0.00001</div>
+                        </div>
+                        <div class="u-item">
+                            <div class="left">Difficulty</div>
+                            <div class="right">84.374.732.09</div>
+                        </div>
+                        <div class="u-item">
+                            <div class="left">Size</div>
+                            <div class="right">8626 bytes</div>
+                        </div>
+                        <div class="u-item">
+                            <div class="left">Markle Root</div>
+                            <div class="right">8662</div>
+                        </div>
+                        <div class="u-item">
+                            <div class="left">Other info</div>
+                            <div class="right">
+                                Version: 2,
+                                <a href="#"> Raw Data</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="transactions-comments">
+                <div class="container">
+                    <div class="checks-wrap">
+                        <label class="check">
+                            <input type="radio" name="trans-com" checked="true">
+                            <div class="custom-check"></div>
+                            <span class="check-text">Transactions</span>
+                        </label>
+                        <label class="check">
+                            <input type="radio" name="trans-com">
+                            <div class="custom-check"></div>
+                            <span class="check-text">Comments</span>
+                        </label>
+                    </div>
+                    <div class="transaction-item">
+                        <div class="trans-item-head">
+                            <span class="date">Dec 20, 2019 at 11:34</span>
+                            <span class="ID">
+                                Transaction ID: 
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </span>
+                            <span class="total">Total: 0.86088 ANK</span>
+                        </div>
+                        <div class="trans-item-bottom border-none items-center">
+                            <div class="left">
+                                <div class="left-item">
+                                    <div class="block-btn">Block Reward</div>
+                                </div>
+                            </div>
+                            <div class="middle">
+                                <img src="img/icons-conductor/transaction-arrow.svg" alt="arrow">
+                            </div>
+                            <div class="right">
+                                <div class="right-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="transaction-item">
+                        <div class="trans-item-head">
+                            <span class="date">Dec 20, 2019 at 11:34</span>
+                            <span class="ID">
+                                Transaction ID: 
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </span>
+                            <span class="total">Total: 0.86088 ANK</span>
+                        </div>
+                        <div class="trans-item-bottom border-none">
+                            <div class="left">
+                                <div class="left-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                            </div>
+                            <div class="middle">
+                                <img src="img/icons-conductor/transaction-arrow.svg" alt="arrow">
+                            </div>
+                            <div class="right">
+                                <div class="right-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="transaction-item">
+                        <div class="trans-item-head">
+                            <span class="date">Dec 20, 2019 at 11:34</span>
+                            <span class="ID">
+                                Transaction ID: 
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </span>
+                            <span class="total">Total: 0.86088 ANK</span>
+                        </div>
+                        <div class="trans-item-bottom">
+                            <div class="left">
+                                <div class="left-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="left-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                            </div>
+                            <div class="middle">
+                                <img src="img/icons-conductor/transaction-arrow.svg" alt="arrow">
+                            </div>
+                            <div class="right border-none">
+                                <div class="right-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="right-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="right-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="right-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="transaction-item">
+                        <div class="trans-item-head">
+                            <span class="date">Dec 20, 2019 at 11:34</span>
+                            <span class="ID">
+                                Transaction ID: 
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </span>
+                            <span class="total">Total: 0.86088 ANK</span>
+                        </div>
+                        <div class="trans-item-bottom border-none">
+                            <div class="left">
+                                <div class="left-item">
+                                    <span class="hidden">(hidden)</span>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                            </div>
+                            <div class="middle">
+                                <img src="img/icons-conductor/transaction-arrow.svg" alt="arrow">
+                            </div>
+                            <div class="right">
+                                <div class="right-item">
+                                    <span class="hidden">(hidden)</span>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="transaction-item">
+                        <div class="trans-item-head">
+                            <span class="date">Dec 20, 2019 at 11:34</span>
+                            <span class="ID">
+                                Transaction ID: 
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </span>
+                            <span class="total">Total: 0.86088 ANK</span>
+                        </div>
+                        <div class="trans-item-bottom border-none">
+                            <div class="left">
+                                <div class="left-item">
+                                    <a href="#">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                            </div>
+                            <div class="middle">
+                                <img src="img/icons-conductor/transaction-arrow.svg" alt="arrow">
+                            </div>
+                            <div class="right">
+                                <div class="right-item">
+                                    <span class="hidden">(hidden)</span>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="transaction-item">
+                        <div class="trans-item-head">
+                            <span class="date">Dec 20, 2019 at 11:34</span>
+                            <span class="ID">
+                                Transaction ID: 
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </span>
+                            <span class="total">Total: 0.86088 ANK</span>
+                        </div>
+                        <div class="trans-item-bottom">
+                            <div class="left border-none">
+                                <div class="left-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="left-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="left-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="left-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="left-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="left-item">
+                                    <a href="#" class="more-link">
+                                        ...10 inputs
+                                        <img src="img/icons-conductor/union.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="middle">
+                                <img src="img/icons-conductor/transaction-arrow.svg" alt="arrow">
+                            </div>
+                            <div class="right border-none">
+                                <div class="right-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="right-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="right-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="right-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="right-item">
+                                    <a href="#" class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</a>
+                                    <span>0.860088 ANK</span>
+                                </div>
+                                <div class="right-item">
+                                    <a href="#" class="more-link">
+                                        ...5 outputs
+                                        <img src="img/icons-conductor/union.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <footer class="footer">
+            <div class="container">
+                <p class="foot-left">Arnak Explorer. 2019</p>
+                <a href="#" class="foot-right">
+                    <span>Return to arnak.org</span>
+                    <img src="img/icons-conductor/foot-arrow.svg" alt="">
+                </a>
+            </div>
+        </footer>
+        
+        <script src="js/libs.js"></script>
+        <script src="js/main.js"></script>
+    </div>
+</body>
+</html>

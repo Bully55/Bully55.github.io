@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/inter.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="img/icons-conductor/white-logo.svg" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li>
+                            <a href="#" class="active-link">Explorer</a>
+                        </li>
+                        <li>
+                            <a href="#">API</a>
+                        </li>
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="search">
+                    <input 
+                        type="text" 
+                        class="search__input" 
+                        placeholder="Search by Block / Txn / Address"
+                    >
+                    <button class="search__button">
+                        <img src="img/icons-conductor/search.svg" alt="search">
+                    </button>
+                </div>
+                <div id="select-lang">
+                    <div class="select-value">
+                        <span>Ru</span>
+                        <img src="img/icons/arrow-lang.svg" alt="arrow-select">
+                    </div>
+                    <div class="select-body">
+                        <label class="option">
+                            <input type="radio" name="select-option" value="Ru">
+                            <span class="text">Ru</span>
+                        </label>
+                        <label class="option">
+                            <input type="radio" name="select-option" value="En">
+                            <span class="text">En</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <main>
+            <section class="address-details">
+                <div class="container">
+                    <h2 class="title">Address details</h2>
+                    <div class="content-block">
+                        <div class="left">
+                            <div class="address-row">
+                                <div class="row-title">Address</div>
+                                <div class="row-descr">
+                                    <span class="id">t1QmwNr6jNRqGSojh1yHjzfL3EhCsG6LxC7</span>
+                                </div>
+                            </div>
+                            <div class="address-row">
+                                <div class="row-title">Balance</div>
+                                <div class="row-descr">
+                                    0.86046088
+                                </div>
+                            </div>
+                            <div class="address-row">
+                                <div class="row-title">Received</div>
+                                <div class="row-descr">
+                                    9.32409889
+                                </div>
+                            </div>
+                            <div class="address-row">
+                                <div class="row-title">Sent</div>
+                                <div class="row-descr">
+                                    8.56409889
+                                </div>
+                            </div>
+                            <div class="address-row">
+                                <div class="row-title">Transactions</div>
+                                <div class="row-descr">
+                                    8
+                                </div>
+                            </div>
+                            <div class="address-row">
+                                <div class="row-title">Shortlink</div>
+                                <div class="row-descr">
+                                    <a href="#">https://arnak.org/a/kdb84nw</a>
+                                </div>
+                            </div>
+                            <div class="address-row">
+                                <div class="row-title">Other Info</div>
+                                <div class="row-descr">
+                                    <a href="#">Raw Data</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <img src="img/qr.png" alt="QR" class="QR-code">
+                            <a href="#" class="QR-btn">Send Arnak</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="transactions">
+                <div class="container">
+                    <div class="transactions-head">
+                        <h2 class="title">Transactions</h2>
+                        <div class="checks-wrap">
+                            <label class="check">
+                                <input type="checkbox">
+                                <div class="custom-check">
+                                    <img src="img/icons-conductor/check.svg" alt="check">
+                                </div>
+                                <span class="check-label">Recv (5)</span>
+                            </label>
+                            <label class="check">
+                                <input type="checkbox">
+                                <div class="custom-check">
+                                    <img src="img/icons-conductor/check.svg" alt="check">
+                                </div>
+                                <span class="check-label">Sent (3)</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="transactions-list">
+                        <div class="u-item">
+                            <div class="date w20 ta-center">Dec 20, 2019 at 11:34</div>
+                            <div class="w55 id">
+                                Transaction ID: 
+                                <br>
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </div>
+                            <div class="w10">+ 0.86046088</div>
+                            <div class="w10">
+                                <div class="status confirm">Confirmed</div>
+                            </div>
+                        </div>
+                        <div class="u-item">
+                            <div class="date w20 ta-center">Dec 20, 2019 at 11:34</div>
+                            <div class="w55 id">
+                                Transaction ID: 
+                                <br>
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </div>
+                            <div class="w10">+ 0.86046088</div>
+                            <div class="w10">
+                                <div class="status unconfirm">unconfirmed</div>
+                            </div>
+                        </div>
+                        <div class="u-item">
+                            <div class="date w20 ta-center">Dec 20, 2019 at 11:34</div>
+                            <div class="w55 id">
+                                Transaction ID: 
+                                <br>
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </div>
+                            <div class="w10">+ 0.86046088</div>
+                            <div class="w10">
+                                <div class="status confirm">Confirmed</div>
+                            </div>
+                        </div>
+                        <div class="u-item">
+                            <div class="date w20 ta-center">Dec 20, 2019 at 11:34</div>
+                            <div class="w55 id">
+                                Transaction ID: 
+                                <br>
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </div>
+                            <div class="w10">+ 0.86046088</div>
+                            <div class="w10">
+                                <div class="status confirm">Confirmed</div>
+                            </div>
+                        </div>
+                        <div class="u-item">
+                            <div class="date w20 ta-center">Dec 20, 2019 at 11:34</div>
+                            <div class="w55 id">
+                                Transaction ID: 
+                                <br>
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </div>
+                            <div class="w10">+ 0.86046088</div>
+                            <div class="w10">
+                                <div class="status confirm">Confirmed</div>
+                            </div>
+                        </div>
+                        <div class="u-item">
+                            <div class="date w20 ta-center">Dec 20, 2019 at 11:34</div>
+                            <div class="w55 id">
+                                Transaction ID: 
+                                <br>
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </div>
+                            <div class="w10">+ 0.86046088</div>
+                            <div class="w10">
+                                <div class="status unconfirm">unconfirmed</div>
+                            </div>
+                        </div>
+                        <div class="u-item">
+                            <div class="date w20 ta-center">Dec 20, 2019 at 11:34</div>
+                            <div class="w55 id">
+                                Transaction ID: 
+                                <br>
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </div>
+                            <div class="w10">+ 0.86046088</div>
+                            <div class="w10">
+                                <div class="status confirm">Confirmed</div>
+                            </div>
+                        </div>
+                        <div class="u-item">
+                            <div class="date w20 ta-center">Dec 20, 2019 at 11:34</div>
+                            <div class="w55 id">
+                                Transaction ID: 
+                                <br>
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </div>
+                            <div class="w10">+ 0.86046088</div>
+                            <div class="w10">
+                                <div class="status confirm">Confirmed</div>
+                            </div>
+                        </div>
+                        <div class="u-item">
+                            <div class="date w20 ta-center">Dec 20, 2019 at 11:34</div>
+                            <div class="w55 id">
+                                Transaction ID: 
+                                <br>
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </div>
+                            <div class="w10">+ 0.86046088</div>
+                            <div class="w10">
+                                <div class="status confirm">Confirmed</div>
+                            </div>
+                        </div>
+                        <div class="u-item">
+                            <div class="date w20 ta-center">Dec 20, 2019 at 11:34</div>
+                            <div class="w55 id">
+                                Transaction ID: 
+                                <br>
+                                <a href="#">34da77a4779dc07f01bbe0d0f9839cf655835b0393bccfdf36d37a2059d695b2</a>
+                            </div>
+                            <div class="w10">+ 0.86046088</div>
+                            <div class="w10">
+                                <div class="status confirm">Confirmed</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show-more">
+                        Показать ещё
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <footer class="footer">
+            <div class="container">
+                <p class="foot-left">Arnak Explorer. 2019</p>
+                <a href="#" class="foot-right">
+                    <span>Return to arnak.org</span>
+                    <img src="img/icons-conductor/foot-arrow.svg" alt="">
+                </a>
+            </div>
+        </footer>
+        
+        <script src="js/libs.js"></script>
+        <script src="js/main.js"></script>
+    </div>
+</body>
+</html>
